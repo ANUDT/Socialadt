@@ -21,7 +21,7 @@ const resultSchema = new Schema({
     required: true,
   },
 
-  //this part records the output would be date and time when it madem, and if not provided use current date and time
+  //this part records the output would be date and time when it made, and if not provided use current date and time
   createdAt: {
     type: Date,
     default: Date.now,
