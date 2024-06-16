@@ -1,5 +1,3 @@
-# Socialadt
-
 README
 
 Module 18 Challenge
