@@ -1,7 +1,7 @@
 {
   "name": "week-18-social-api",
   "version": "1.0.0",
-  "description": "README",
+  "description": "building social api",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
