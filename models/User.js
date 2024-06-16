@@ -1,6 +1,6 @@
 const { Schema, model } = require('mongoose');
 
-const resultSchema = new Schema({
+const rstSchema = new Schema({
   username: {
     type: String,
     unique: true,

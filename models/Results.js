@@ -3,13 +3,13 @@
 const { Schema, Types } = require('mongoose');
 
 const resultSchema = new Schema({
-  resultId: {
+resultsId: {
     type: Schema.Types.ObjectId,
     default: () => new Types.ObjectId(),
   },
 
   //text would not be longer the 200  and is the main text of reaction
-  resultBody: {
+resultsBody: {
     type: String,
     required: true,
     maxLength:200,
