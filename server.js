@@ -1,7 +1,7 @@
 // following will help to import the modules in express which build web servers in javascript, 
 //db is database connection with connection.js and paths like routes
 const express = require('express');
-const db = require('./config/Connection.js');
+const db = require('./Backend/Config/Connection');
 const routes = require('./routes');
 
 //port number 3001 is the assigned port where the server listens too
@@ -23,4 +23,3 @@ db.once('open', () => {
   });
 });
 
-//note

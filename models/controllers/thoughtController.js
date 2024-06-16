@@ -1,5 +1,6 @@
 //thought and user created in database are here being imported
-const { Thought, User } = require('../models');
+const Thought = require('../../models/Thought');
+const User = require('../../models/User');
 
 // here we use the thoughtController Object to get methods to manage the thoughts CRUD, get create update delete
 const thoughtController = {
