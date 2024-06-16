@@ -6,7 +6,7 @@ const resultSchema = new Schema({
     type: String,
     required: true,
     minlength: 1,
-    maxlength: 200,
+    maxLength: 200,
   },
   createdAt: {
     type: Date,

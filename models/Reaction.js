@@ -12,7 +12,7 @@ const resultSchema = new Schema({
   resultBody: {
     type: String,
     required: true,
-    maxlength:200,
+    maxLength:200,
   },
 
   // String type is in this case text and required username is name 
