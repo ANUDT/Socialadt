@@ -7,15 +7,21 @@ const resultSchema = new Schema({
     type: Schema.Types.ObjectId,
     default: () => new Types.ObjectId(),
   },
+
+  //text would not be longer the 200  and is the main text of reaction
   resultBody: {
     type: String,
     required: true,
     maxlength:200,
   },
+
+  // String type is in this case text and required username is name 
   username: {
     type: String,
     required: true,
   },
+
+  //
   createdAt: {
     type: Date,
     default: Date.now,
