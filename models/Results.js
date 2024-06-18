@@ -36,5 +36,7 @@ resultsBody: {
     getters: true,
   },
   id: false,
-});
+}
+);
+module.exports = resultSchema;
 
