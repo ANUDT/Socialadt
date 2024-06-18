@@ -1,6 +1,6 @@
 //database mongoose is being imported here schema and model is build to give shape to the data
 const { Schema, model } = require('mongoose');
-const reactionSchema = require('./Results');
+const reactionSchema = require('./Reaction');
 
 const thoughtSchema = new Schema(
   {

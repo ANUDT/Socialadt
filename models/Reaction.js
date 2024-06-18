@@ -2,7 +2,7 @@
 //Types, schema and mongoose are teh parts we use to build the the models
 const { Schema, Types } = require('mongoose');
 
-const resultSchema = new Schema(
+const reactionSchema = new Schema(
   {
 reactionId: {
     type: Schema.Types.ObjectId,

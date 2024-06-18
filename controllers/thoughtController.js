@@ -1,6 +1,6 @@
 //thought and user created in database are here being imported
-const Thought = require('../../models/Thought');
-const User = require('../../models/User');
+const Thought = require('../models/Thought');
+const User = require('../models/User');
 
 // here we use the thoughtController Object to get methods to manage the thoughts CRUD, get create update delete
 const thoughtController = {
@@ -91,7 +91,7 @@ const thoughtController = {
   addReaction({ params, body }, res) {
     Thought.findOneAndUpdate(
       { _id: params.thoughtId },
-      { $push: { results: body } },
+      { $push: { reaction: body } },
       { new: true, runValidators: true }
     )
       .select('-__v')
@@ -105,10 +105,10 @@ const thoughtController = {
       .catch((err) => res.status(400).json(err));
   },
 
-  removeResult({ params }, res) {
+  removeReaction({ params }, res) {
     Thought.findOneAndUpdate(
       { _id: params.thoughtId },
-      { $pull: { results: { resultsId: params.resultsId } } },
+      { $pull: { reactions: { reactionId: params.reactionId } } },
       { new: true }
     )
       .select('-__v')
