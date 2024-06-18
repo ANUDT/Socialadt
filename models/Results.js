@@ -2,7 +2,8 @@
 //Types, schema and mongoose are teh parts we use to build the the models
 const { Schema, Types } = require('mongoose');
 
-const resultSchema = new Schema({
+const resultSchema = new Schema(
+  {
 resultsId: {
     type: Schema.Types.ObjectId,
     default: () => new Types.ObjectId(),
