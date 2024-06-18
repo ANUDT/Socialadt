@@ -50,7 +50,10 @@ const thoughtController = {
   },
 
   updateThought({ params, body }, res) {
-    Thought.findOneAndUpdate({ _id: params.id }, body, { new: true, runValidators: true })
+    Thought.findOneAndUpdate({ _id: params.id }, body, {
+      new: true,
+      runValidators: true,
+    })
       .select('-__v')
       .then((dbThoughtData) => {
         if (!dbThoughtData) {
@@ -85,7 +88,7 @@ const thoughtController = {
       .catch((err) => res.status(400).json(err));
   },
 
-  addResult({ params, body }, res) {
+  addReaction({ params, body }, res) {
     Thought.findOneAndUpdate(
       { _id: params.thoughtId },
       { $push: { results: body } },
