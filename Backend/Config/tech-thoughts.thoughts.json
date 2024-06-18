@@ -1,0 +1,120 @@
+[{
+  "_id": {
+    "$oid": "666b3bf679a8d659f2d53737"
+  },
+  "thoughtText": "Everyone knows that debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it?",
+  "thoughtAuthor": "Brian Kernighan",
+  "createdAt": {
+    "$date": "2024-06-13T18:35:34.892Z"
+  },
+  "comments": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "666b3bf679a8d659f2d5373a"
+  },
+  "thoughtText": "I'm not a great programmer; I'm just a good programmer with great habits.",
+  "thoughtAuthor": "Kent Beck",
+  "createdAt": {
+    "$date": "2024-06-13T18:35:34.897Z"
+  },
+  "comments": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "666b3bf679a8d659f2d5373b"
+  },
+  "thoughtText": "Walking on water and developing software from a specification are easy if both are frozen.",
+  "thoughtAuthor": "Edward V. Berard",
+  "createdAt": {
+    "$date": "2024-06-13T18:35:34.897Z"
+  },
+  "comments": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "666b3bf679a8d659f2d5373c"
+  },
+  "thoughtText": "The most disastrous thing that you can ever learn is your first programming language.",
+  "thoughtAuthor": "Alan Kay",
+  "createdAt": {
+    "$date": "2024-06-13T18:35:34.898Z"
+  },
+  "comments": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "666b3bf679a8d659f2d5373d"
+  },
+  "thoughtText": "The most important property of a program is whether it accomplishes the intention of its user.",
+  "thoughtAuthor": "C.A.R. Hoare",
+  "createdAt": {
+    "$date": "2024-06-13T18:35:34.898Z"
+  },
+  "comments": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "666b3bf679a8d659f2d5373e"
+  },
+  "thoughtText": "Delivering good software today is often better than perfect software tomorrow, so finish things and ship.",
+  "thoughtAuthor": "David Thomas",
+  "createdAt": {
+    "$date": "2024-06-13T18:35:34.899Z"
+  },
+  "comments": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "666b3bf679a8d659f2d5373f"
+  },
+  "thoughtText": "If you optimize everything, you will always be unhappy.",
+  "thoughtAuthor": "Donald Knuth",
+  "createdAt": {
+    "$date": "2024-06-13T18:35:34.899Z"
+  },
+  "comments": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "666b3bf679a8d659f2d53740"
+  },
+  "thoughtText": "It's not a bug; it's an undocumented feature.",
+  "thoughtAuthor": "Anonymous",
+  "createdAt": {
+    "$date": "2024-06-13T18:35:34.899Z"
+  },
+  "comments": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "666b3bf679a8d659f2d53738"
+  },
+  "thoughtText": "Some of the best programming is done on paper, really. Putting it into the computer is just a minor detail.",
+  "thoughtAuthor": "Max Kanat-Alexander",
+  "createdAt": {
+    "$date": "2024-06-13T18:35:34.896Z"
+  },
+  "comments": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "666b3bf679a8d659f2d53739"
+  },
+  "thoughtText": "When you don't create things, you become defined by your tastes rather than ability. Your tastes only narrow & exclude people. So create.",
+  "thoughtAuthor": "Why The Lucky Stiff",
+  "createdAt": {
+    "$date": "2024-06-13T18:35:34.897Z"
+  },
+  "comments": [],
+  "__v": 0
+}]
