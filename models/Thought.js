@@ -1,8 +1,8 @@
 //database mongoose is being imported here schema and model is build to give shape to the data
 const { Schema, model } = require('mongoose');
-const resultSchema = require('./Results');
+const reactionSchema = require('./Results');
 
-const resultSchema = new Schema(
+const thoughtSchema = new Schema(
   {
   thoughtText: {
     type: String,
@@ -19,7 +19,7 @@ const resultSchema = new Schema(
     type: String,
     required: true,
   },
- result: [s],
+ reactions: [reactionSchema],
 }, 
 {
   toJSON: {
@@ -31,9 +31,9 @@ const resultSchema = new Schema(
 );
 
 thoughtSchema.virtual("resultCount").get(function () {
-  return this.result.length;
+  return this.reactions.length;
 });
 
-const Thought = model('Thought', resultsSchema);
+const Thought = model('Thought', thoughtSchema);
 
 module.exports = Thought;

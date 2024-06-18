@@ -4,13 +4,13 @@ const { Schema, Types } = require('mongoose');
 
 const resultSchema = new Schema(
   {
-resultsId: {
+reactionId: {
     type: Schema.Types.ObjectId,
     default: () => new Types.ObjectId(),
   },
 
   //text would not be longer the 200  and is the main text of reaction
-resultsBody: {
+reactionBody: {
     type: String,
     required: true,
     maxLength:200,
@@ -38,5 +38,5 @@ resultsBody: {
   id: false,
 }
 );
-module.exports = resultSchema;
+module.exports = reactionSchema;
 

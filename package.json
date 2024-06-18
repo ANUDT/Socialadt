@@ -10,7 +10,8 @@
     },
     "dependencies": {
         "express": "^4.19.2",
-        "mongoose": "^5.13.22"
+        "mongoose": "^5.13.22",
+        "dotenv": "^16.4.5"
     },
     "devDependencies": {
         "nodemon": "^2.0.22"

@@ -1,6 +1,6 @@
 //create this and run npm run seed
 // Importing necessary modules and configurations
-const connection = require('../config/Connection');
+const connection = require('../Backend/Config/Connection');
 const Thought = require('../models/Thought');
 const { getRandomName, getRandomThoughts } = require('./data');
 
