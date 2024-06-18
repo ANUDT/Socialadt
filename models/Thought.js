@@ -1,8 +1,9 @@
 //database mongoose is being imported here schema and model is build to give shape to the data
 const { Schema, model } = require('mongoose');
-const resultSchema = require('./Result');
+const resultSchema = require('./Results');
 
-const resultSchema = new Schema({
+const resultSchema = new Schema(
+  {
   thoughtText: {
     type: String,
     required: true,
@@ -19,15 +20,17 @@ const resultSchema = new Schema({
     required: true,
   },
  result: [s],
-}, {
+}, 
+{
   toJSON: {
     virtuals: true,
     getters: true,
   },
   id: false,
-});
+}
+);
 
-s.virtual('resultCount').get(function () {
+thoughtSchema.virtual("resultCount").get(function () {
   return this.result.length;
 });
 
