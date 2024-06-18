@@ -2,7 +2,7 @@
 // Importing necessary modules and configurations
 const connection = require('../Backend/Config/Connection');
 const Thought = require('../models/Thought');
-const { getRandomName, getRandomThoughts } = require('./data');
+const { getRandomName, getRandomThoughts } = require('./seed');
 
 connection.on('error', (err) => err);
 

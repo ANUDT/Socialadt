@@ -4,53 +4,53 @@ const users = [
     {
       username: 'pipi_langkous',
       email: 'pipi_langkous@example.com',
-      thoughts: [],
-      friends: [],
+      thoughts: [hello],
+      friends: [Dora],
     },
     {
       username: 'tom_jerry',
       email: 'tom_jerry@example.com',
-      thoughts: [],
-      friends: [],
+      thoughts: [hi],
+      friends: [John],
     },
 
    {
     username: 'mini_mouse',
     email: 'mini_mouse@example.com',
-    thoughts: [],
-    friends: [],
+    thoughts: [good],
+    friends: [Jim],
   },
   {
     username: 'daffy_duck',
     email: 'daffy_duck@example.com',
-    thoughts: [],
-    friends: [],
+    thoughts: [happy],
+    friends: [Duck],
   },
 
   {
     username: 'shrek_green',
     email: 'shrek_green@example.com',
-    thoughts: [],
-    friends: [],
+    thoughts: [Donkey],
+    friends: [Fiona],
   },
   {
     username: 'hilly_billy',
     email: 'hilly_billy@example.com',
-    thoughts: [],
-    friends: [],
+    thoughts: [Mountain],
+    friends: [jean],
   },
 
  {
   username: 'top_cat',
   email: 'top_cat@example.com',
-  thoughts: [],
-  friends: [],
+  thoughts: [Spin],
+  friends: [Kitty],
 },
 {
   username: 'king_kong',
   email: 'king_kong@example.com',
-  thoughts: [],
-  friends: [],
+  thoughts: [Tower],
+  friends: [Godzilla],
 },
 ];
 
@@ -58,42 +58,42 @@ const thoughts = [
   {
     thoughtText: 'This is posted by Pipi',
     username: 'pipi_langkous',
-    results: [],
+   reactions: [longhair ],
   },
   {
     thoughtText: 'Tom has send you a message',
     username: 'tom_jerry',
-    results: [],
+   reactions: [cat],
   },
   {
       thoughtText: 'This is posted by Mini',
       username: 'mini_mouses',
-      results: [],
+     reactions: [mouse],
     },
     {
       thoughtText: 'Daffy has send you a message',
       username: 'daffy_duck',
-      results: [],
+      results: [Duck],
     },
     {
       thoughtText: 'This is posted by Shrek',
       username: 'shrek_green',
-      results: [],
+      results: [Fiona],
     },
     {
       thoughtText: 'Hilly Billy has send you a message',
       username: 'hilly_billy',
-      results: [],
+      results: [Jean],
     },
     {
         thoughtText: 'This is posted by Top Cat',
         username: 'top_cat',
-        results: [],
+        results: [Fast],
       },
       {
         thoughtText: 'King Kong has send you a message',
         username: 'king_kong',
-        results: [],
+        results: [Godzilla],
       },
 ];
 
