@@ -32,3 +32,5 @@ The following animation shows GET routes to return all users and all thoughts be
 
 https://github.com/ANUDT/week-18-SOCIAL-API
 https://github.com/ANUDT/week-18-SOCIAL-API.git
+
+https://drive.google.com/file/d/1TSatkWao8BlZa3NBJFzfW4NhFP8s9sHZ/view
