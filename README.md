@@ -29,3 +29,6 @@ Mock-Up
 The following animations show examples of the application's API routes being tested in Insomnia.
 
 The following animation shows GET routes to return all users and all thoughts being tested in Insomnia:
+
+https://github.com/ANUDT/week-18-SOCIAL-API
+https://github.com/ANUDT/week-18-SOCIAL-API.git
